@@ -21,8 +21,8 @@ service:
   SendToHandleChanTimeout: 500
   TokenPassWd: go
 redis:
-  host: seckillredis:6378
-  # password: 082203
+  host: seckillredis:6379
+  password: ""
   db: 0
   Proxy2layerQueueName: proxy2layer
   Layer2proxyQueueName: Layer2proxy

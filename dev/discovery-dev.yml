@@ -12,8 +12,8 @@ service:
     - test
 
 redis:
-  host: seckillredis
-  password: 6378
+  host: seckillredis:6379
+  password: ""
   db: 0
   proxy2layer_queue_name: name
   ip_black_list_hash: 12
@@ -34,6 +34,6 @@ mysql:
   db: user
 
 trace:
-  host: seckillzipkin
+  host: 114.67.98.210
   port: 9411
   url: /api/v2/spans
