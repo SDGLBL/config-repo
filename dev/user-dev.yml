@@ -28,9 +28,9 @@ http:
 
 mysql:
   host: 114.67.98.210
-  port: 3396
+  port: 3306
   user: root
-  pwd: root_test
+  pwd: 0925ChAo824166
   db: user
 
 trace:
