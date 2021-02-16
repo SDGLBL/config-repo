@@ -32,21 +32,21 @@ redis:
   IpBlackListQueue: IpBlackListQueue
 
 etcd:
-  host: localhost
+  host: seckillkong
   product_key: zxfyazzaa
 
 http:
-  host: localhost
+  host: seckill-dev
 
 
 mysql:
-  host: 114.67.98.210
+  host: seckillmysql
   port: 3306
   user: root
-  pwd: 0925ChAo824166
+  pwd: 0925824166
   db: sk-admin
 
 trace:
-  host: 114.67.98.210
+  host: seckillzipkin
   port: 9411
   url: /api/v2/spans

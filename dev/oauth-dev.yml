@@ -12,7 +12,7 @@ service:
     - test
 
 redis:
-  host: localhost
+  host: seckillredis
   password: 6378
   db: 0
   proxy2layer_queue_name: name
@@ -24,16 +24,16 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: 114.67.98.210
+  host: seckill-dev
 
 mysql:
-  host: 114.67.98.210
+  host: seckillmysql
   port: 3306
   user: root
   pwd: 0925ChAo824166
   db: oauth
 
 trace:
-  host: 114.67.98.210
+  host: seckillzipkin
   port: 9411
   url: /api/v2/spans
