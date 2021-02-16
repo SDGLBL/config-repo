@@ -65,7 +65,7 @@ services:
     networks:
       seckill:
         aliases:
-          - "seckillscs"
+          - "seckillsccs"
     depends_on:
       - seckill-rabbitmq
       - seckill-consul

@@ -19,7 +19,7 @@ etcd:
   product_key: zxfyazzaa
 
 http:
-  host: 114.67.98.210
+  host: seckillkong
 
 mysql:
   host: seckillmysql
